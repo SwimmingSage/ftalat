@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-O3 -g -march=native -Wall -Wextra
+CFLAGS=-O3 -std=gnu89 -g -march=native -Wall -Wextra
 LDFLAGS=
 
 .PHONY: all trace doc clean
